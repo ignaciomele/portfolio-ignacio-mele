@@ -89,6 +89,9 @@
 
 
   @media (max-width: 680px) {
+    .div-home {
+      min-height: 0;
+    }
     .div-home-title h1{
       font-size: 40px;
     }

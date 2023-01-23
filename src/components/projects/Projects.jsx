@@ -35,7 +35,7 @@ export default function Projects() {
                                     <h3>Portfolio</h3>
                                     <p>My personal web site, where you can find information about my carreer and projects where I've been involved.</p>
                                     <a 
-                                        href="https://simples-cosas-cabins.netlify.app/" 
+                                        href="https://cocktail-recipes-list.netlify.app/" 
                                         target="_blank" 
                                         rel="noopener noreferrer"
                                         >
@@ -51,7 +51,7 @@ export default function Projects() {
                                     <h3>Cocktail's recipe</h3>
                                     <p>Web page to search your favourite cocktails. Also, you can add your own recipes.</p>
                                     <a 
-                                        href="https://simples-cosas-cabins.netlify.app/" 
+                                        href="https://ignacio-mele.netlify.app/" 
                                         target="_blank" 
                                         rel="noopener noreferrer"
                                         >
