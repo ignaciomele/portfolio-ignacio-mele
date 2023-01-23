@@ -1,0 +1,108 @@
+{
+    "icons":[
+        {
+            "id": "1",
+            "img": "/iconSkills/html5.png",
+            "title": "HTML5"
+
+        },
+        {
+            "id": "2",
+            "img": "/iconSkills/css.png",
+            "title": "CSS"
+        },
+        {
+            "id": "3",
+            "img": "/iconSkills/js.png",
+            "title": "JavaScript"
+        },
+        {
+            "id": "4",
+            "img": "/iconSkills/reactIcon.png",
+            "title": "ReactJs"
+        },
+        {
+            "id": "5",
+            "img": "/iconSkills/vueIcon.png",
+            "title": "VueJs"
+        },
+        {
+            "id": "6",
+            "img": "/iconSkills/nodeIcon.png",
+            "title": "NodeJs"
+        },
+        {
+            "id": "7",
+            "img": "/iconSkills/expressIcon.png",
+            "title": "ExpressJs"
+        },
+        {
+            "id": "8",
+            "img": "/iconSkills/mongoIcon.png",
+            "title": "MongoDB"
+        },
+        {
+            "id": "9",
+            "img": "/iconSkills/github.png",
+            "title": "GitHub"
+        },
+        {
+            "id": "10",
+            "img": "/iconSkills/bootstrap.png",
+            "title": "Bootstrap"
+        },
+        
+        {
+            "id": "11",
+            "img": "/iconSkills/nextIcon.png",
+            "title": "NextJs"
+        },
+        {
+            "id": "12",
+            "img": "/iconSkills/nuxt.png",
+            "title": "NuxtJs"
+        },
+        {
+            "id": "13",
+            "img": "/iconSkills/vuex.png",
+            "title": "Vuex"
+        },
+        {
+            "id": "14",
+            "img": "/iconSkills/quasar.png",
+            "title": "Quasar"
+        },
+        {
+            "id": "15",
+            "img": "/iconSkills/vuetify.png",
+            "title": "Vuetify"
+        },
+        {
+            "id": "16",
+            "img": "/iconSkills/mysql.webp",
+            "title": "MySQL"
+        },
+        
+        {
+            "id": "17",
+            "img": "/iconSkills/firebaseIcon.png",
+            "title": "Firebase"
+        },
+        {
+            "id": "18",
+            "img": "/iconSkills/sequelizeIcon.png",
+            "title": "Sequelize"
+        },
+        {
+            "id": "19",
+            "img": "/iconSkills/sendgridIcon.png",
+            "title": "Sendgrid"
+        },
+        {
+            "id": "20",
+            "img": "/iconSkills/jira.png",
+            "title": "Jira"
+        }
+        
+    ]
+}
