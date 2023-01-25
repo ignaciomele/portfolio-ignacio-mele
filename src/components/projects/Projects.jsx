@@ -12,10 +12,10 @@ export default function Projects() {
                     <h1>PROJECTS</h1>
                 </div>
                 <div className="div-projects-cards" data-aos="fade-up">
-                    <div class="container-card" >
+                    <div className="container-card" >
                             <figure>
                                 <img src={projectSimplesCosas} alt=""/>
-                                <div class="text-card">
+                                <div className="text-card">
                                     <h3>Simples Cosas Cabins</h3>
                                     <p>One of my work as a freelancer, about cabin's reservation, where you can connect with the owner to check the availability and more information about the cabin.</p>
                                     <a 
@@ -28,10 +28,10 @@ export default function Projects() {
                                 </div>
                             </figure>
                     </div>
-                    <div class="container-card">
+                    <div className="container-card">
                             <figure>
                                 <img src={portfolio} alt=""/>
-                                <div class="text-card">
+                                <div className="text-card">
                                     <h3>Portfolio</h3>
                                     <p>My personal web site, where you can find information about my carreer and projects where I've been involved.</p>
                                     <a 
@@ -44,10 +44,10 @@ export default function Projects() {
                                 </div>
                             </figure>
                     </div>
-                    <div class="container-card">
+                    <div className="container-card">
                             <figure>
                                 <img src={projectCocktails} alt=""/>
-                                <div class="text-card">
+                                <div className="text-card">
                                     <h3>Cocktail's recipe</h3>
                                     <p>Web page to search your favourite cocktails. Also, you can add your own recipes.</p>
                                     <a 
