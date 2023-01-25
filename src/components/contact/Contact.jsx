@@ -14,6 +14,7 @@ export default function Contact() {
         subject:{ placeholder: "Subject", type: "text", value: '' },
         message:{ placeholder: "Message", type: "text", value: '' }
     })
+    const [submitButtonText, setSubmitButtonText] = useState('Send')
 
     const formRef = useRef()
 
@@ -30,7 +31,7 @@ export default function Contact() {
     }
     const sendDataEmail = (e) => {
         e.preventDefault();
-
+        setSubmitButtonText('Sending')
         emailjs.sendForm(
             'service_66ar31s', 
             'template_jxx6fcj', 
@@ -43,7 +44,14 @@ export default function Contact() {
                 button: "accept",
                 timer: "2000"
             });
-              console.log(result.text);
+            setTimeout(() => {
+                setSubmitButtonText('Send')
+            }, 3000);
+            setSubmitButtonText('Sent')
+            dataEmail.name.value = ''
+            dataEmail.email.value = ''
+            dataEmail.subject.value = ''
+            dataEmail.message.value = ''
           }, (error) => {
             swal({
                 title: "The email couldn't be sent",
@@ -53,9 +61,9 @@ export default function Contact() {
             });
               console.log(error.text);
           });
-          e.target.reset()
+            
+          
       };
-    
 
 
     return(
@@ -87,7 +95,7 @@ export default function Contact() {
                         />
                     })}
                     <div className="button-form" >
-                        <button className="button slide_right" type="submit">Send</button>
+                        <button className="button slide_right" type="submit">{submitButtonText}</button>
                     </div>
                 </form>
             </div>
