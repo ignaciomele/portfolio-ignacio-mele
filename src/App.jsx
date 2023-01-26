@@ -1,5 +1,4 @@
 import './App.css';
-import {Helmet} from "react-helmet";
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -21,11 +20,6 @@ function App() {
 
   return (
     <div className="App">
-      <Helmet>
-                <meta charSet="utf-8" property='og:../../static/logoIM5.png'/>
-                <title>Ignacio Mele | Web developer</title>
-                <link rel="canonical" href="https://ignacio-mele.netlify.app/" />
-            </Helmet>
       <header className="App-header">
         {showLoader ? <Loader/> : 
         <div>
