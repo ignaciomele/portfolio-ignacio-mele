@@ -25,7 +25,7 @@ export default function ScrollUp() {
         <div>
             {buttonScrollUp && (
                 <div className="btn-up" >
-                    <a href="#home" onClick={scrollUpButton}>
+                    <a href="#home" onClick={scrollUpButton} data-testId='scrollUp'>
                         <FontAwesomeIcon icon={faChevronUp} className="icon-up"/>
                     </a>
             </div>

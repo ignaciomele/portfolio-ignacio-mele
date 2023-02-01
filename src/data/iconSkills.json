@@ -38,68 +38,73 @@
         },
         {
             "id": "8",
+            "img": "/iconSkills/jest.webp",
+            "title": "JestJs"
+        },
+        {
+            "id": "9",
             "img": "/iconSkills/mongoIcon.png",
             "title": "MongoDB"
         },
         {
-            "id": "9",
+            "id": "10",
             "img": "/iconSkills/github.png",
             "title": "GitHub"
         },
         {
-            "id": "10",
+            "id": "11",
             "img": "/iconSkills/bootstrap.png",
             "title": "Bootstrap"
         },
         
         {
-            "id": "11",
+            "id": "12",
             "img": "/iconSkills/nextIcon.png",
             "title": "NextJs"
         },
         {
-            "id": "12",
+            "id": "13",
             "img": "/iconSkills/nuxt.png",
             "title": "NuxtJs"
         },
         {
-            "id": "13",
+            "id": "14",
             "img": "/iconSkills/vuex.png",
             "title": "Vuex"
         },
         {
-            "id": "14",
+            "id": "15",
             "img": "/iconSkills/quasar.png",
             "title": "Quasar"
         },
         {
-            "id": "15",
+            "id": "16",
             "img": "/iconSkills/vuetify.png",
             "title": "Vuetify"
         },
         {
-            "id": "16",
+            "id": "17",
             "img": "/iconSkills/mysql.webp",
             "title": "MySQL"
         },
         
         {
-            "id": "17",
+            "id": "18",
             "img": "/iconSkills/firebaseIcon.png",
             "title": "Firebase"
         },
         {
-            "id": "18",
+            "id": "19",
             "img": "/iconSkills/sequelizeIcon.png",
             "title": "Sequelize"
         },
         {
-            "id": "19",
+            "id": "20",
             "img": "/iconSkills/sendgridIcon.png",
             "title": "Sendgrid"
         },
         {
-            "id": "20",
+            "id": "21",
             "img": "/iconSkills/jira.png",
             "title": "Jira"
         }
