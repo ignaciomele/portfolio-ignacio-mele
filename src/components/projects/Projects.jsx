@@ -48,7 +48,7 @@ export default function Projects() {
                             <figure>
                                 <img src={projectCocktails} alt=""/>
                                 <div className="text-card">
-                                    <h3>Cocktail's recipe</h3>
+                                    <h3>Cocktail recipes</h3>
                                     <p>Web page to search your favourite cocktails. Also, you can add your own recipes.</p>
                                     <a 
                                         href="https://cocktail-recipes-list.netlify.app/" 
