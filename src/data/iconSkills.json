@@ -23,88 +23,93 @@
         },
         {
             "id": "5",
+            "img": "/iconSkills/reduxIcon.png",
+            "title": "Redux"
+        },
+        {
+            "id": "6",
             "img": "/iconSkills/vueIcon.png",
             "title": "VueJs"
         },
         {
-            "id": "6",
+            "id": "7",
             "img": "/iconSkills/nodeIcon.png",
             "title": "NodeJs"
         },
         {
-            "id": "7",
+            "id": "8",
             "img": "/iconSkills/expressIcon.png",
             "title": "ExpressJs"
         },
         {
-            "id": "8",
+            "id": "9",
             "img": "/iconSkills/jest.webp",
             "title": "JestJs"
         },
         {
-            "id": "9",
+            "id": "10",
             "img": "/iconSkills/mongoIcon.png",
             "title": "MongoDB"
         },
         {
-            "id": "10",
+            "id": "11",
             "img": "/iconSkills/github.png",
             "title": "GitHub"
         },
         {
-            "id": "11",
+            "id": "12",
             "img": "/iconSkills/bootstrap.png",
             "title": "Bootstrap"
         },
         
         {
-            "id": "12",
+            "id": "13",
             "img": "/iconSkills/nextIcon.png",
             "title": "NextJs"
         },
         {
-            "id": "13",
+            "id": "14",
             "img": "/iconSkills/nuxt.png",
             "title": "NuxtJs"
         },
         {
-            "id": "14",
+            "id": "15",
             "img": "/iconSkills/vuex.png",
             "title": "Vuex"
         },
         {
-            "id": "15",
+            "id": "16",
             "img": "/iconSkills/quasar.png",
             "title": "Quasar"
         },
         {
-            "id": "16",
+            "id": "17",
             "img": "/iconSkills/vuetify.png",
             "title": "Vuetify"
         },
         {
-            "id": "17",
+            "id": "18",
             "img": "/iconSkills/mysql.webp",
             "title": "MySQL"
         },
         
         {
-            "id": "18",
+            "id": "19",
             "img": "/iconSkills/firebaseIcon.png",
             "title": "Firebase"
         },
         {
-            "id": "19",
+            "id": "20",
             "img": "/iconSkills/sequelizeIcon.png",
             "title": "Sequelize"
         },
         {
-            "id": "20",
+            "id": "21",
             "img": "/iconSkills/sendgridIcon.png",
             "title": "Sendgrid"
         },
         {
-            "id": "21",
+            "id": "22",
             "img": "/iconSkills/jira.png",
             "title": "Jira"
         }
