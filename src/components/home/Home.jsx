@@ -20,7 +20,7 @@ export default function Home() {
                     <h4>Welcome to my portfolio</h4>
                     <img className="home-avatar" src={avatarIM} alt="" />
                     <p>I'm a web developer with a music background.</p>
-                    <p>In others words, I went to Music University and returned a programmer.</p>
+                    <p>In others words, I went to Music University and returned a Software Engineer.</p>
                     <div>
                         <a href="Resume Ignacio Mele.pdf" download="Resume Ignacio Mele.pdf">
                             <button className="button slide_right">Download Resume</button>
