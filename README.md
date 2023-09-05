@@ -64,9 +64,9 @@ Landing pages creation, database management, analytics. Built with *VueJs*, *Nux
 
 ## Technical proficiencies
 |Category                 |Technologies      |
-|----------------|-------------------------------|-----------------------------|
-|Markup Languages|`HTML`|
-|Styling|`CSS, SCSS`|
+|-------------------------|------------------|
+|Markup Languages         |`HTML`            |
+|Styling                  |`CSS, SCSS`       |
 |Programming Languages|`JavaScript, TypeScript`|
 |Frontend Frameworks|`React.Js, Vue.Js, Nuxt.Js`            |
 |Collaborative Development Platforms|`GitHub, GitLab`        |
@@ -173,5 +173,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDg0MjA0MCw2NDY4Njg4OTddfQ==
+eyJoaXN0b3J5IjpbLTEwMjEyOTE5ODEsNjQ2ODY4ODk3XX0=
 -->
