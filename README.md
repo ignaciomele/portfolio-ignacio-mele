@@ -1,3 +1,108 @@
+# Welcome to Ignacio Mele's Portfolio
+
+![Ignacio Mele  img](https://i.ibb.co/MSnvHwC/Ignacio-Mele.png =100x100)
+
+## About me
+
+Technology always was my passion and I'm fully committed to it. My **dedication** and **enthusiasm** for web development was born from my desire to create **innovative solutions** and handle complex challenges.
+I'm open-minded to **learning and growing** in different tasks.
+
+## Profile
+Experienced **Software Developer** deft in bringing forth expertise in design, development, testing, and maintenance of software systems.
+
+Proficient in **various platforms**, languages and embedded systems, being my strengths SCSS, ReactJs, JavaScript, TypeScript, among others. 
+
+Experienced with the latest cutting edge **development tools** and procedures. 
+ 
+Flexibility and dynamism when facing **new challenges**.
+
+Able to effectively **self-manage** during independent projects, as well as
+collaborate as **part of a productive team**.
+
+
+## Work experience
+
+### Front-End developer
+
+**EcoMap**, February 2023 - Present
+
+ - Sustainable consumption web-based service.
+
+Design and development of landing pages, management of data stored in databases. Built with *TypeScript*, *React.Js*, *Node.Js* and *MongoDB*.
+
+### Javascript fullstack developer
+**Raxar Company**, October 2021 - January 2023
+
+ - The Walt Disney Company and others.
+
+Landing pages creation, database management, analytics. Built with *VueJs*, *Nuxt.js*, *NodeJs*, *Express.Js*, *Sequelize*, *MySQL*, *Bootstrap* and *Vuetify*.
+
+
+### Typescript fullstack developer
+
+**Freelance**, October 2020 - Present
+
+ - Biorigen: Holistic Medical Center
+
+ Implementation of web design and database management through *React.Js*, *Node.Js*, *Express.Js*, *Sequelize*, *MySQL* and *Bootstrap*.
+ 
+ - Simples Cosas Cabin
+ 
+ Cabins reservation page. Designed specifically for the cabins' owner and is a full page developed using the *React.Js* and *Jest.Js*.
+ 
+ - Cocktail recipes page
+  
+  Developed with *React.Js*, *Node.Js*, *Express.Js*, *Sequelize*, *MySQL* and *Jest.Js*.
+
+## Skills
+
+ - Team Worker
+ - Proactive
+ - Fast learner
+
+## Technical proficiencies
+|Category                          |Technologies                         |
+|----------------|-------------------------------|-----------------------------|
+|Markup Languages|`HTML`|
+|Styling|`CSS, SCSS`|
+|Programming Languages|`JavaScript, TypeScript`|
+|Frontend Frameworks|`React.Js, Vue.Js, Nuxt.Js`            |
+|Collaborative Development Platforms|`GitHub, GitLab`        |
+|Backend Frameworks|`Node.Js, Express.Js`|
+|Databases|`MySQL, MongoDB`            |
+|Testing Frameworks|`Jest.Js`            |
+|UI Design Frameworks|`Bootstrap, MUI, Vuetify`|
+ 
+
+## Languajes
+
+ - English: *Upper Intermediate*
+ - Spanish: *Native*
+ - German: *Basic*
+
+## Education
+**Bachelor Degree**, La Plata National University - *2014 - 2021*
+
+## Certifications
+
+See my [Certifications](https://drive.google.com/drive/folders/1j_wPwSTEVSUyw3qXw66DLos3hZOxBYDm) 
+
+## Contact details
+
+ - +43 6608 259229
+ - [Portfolio](https://ignacio-mele.netlify.app/)
+ - [LinkedIn](https://www.linkedin.com/in/ignacio-mele/)
+ - ignacio.mele1@gmail.com
+
+
+## References
+
+Hipolito Paradela from *Raxar Company*
+hparadela@live.com.ar
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +173,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjQ2ODY4ODk3XX0=
+-->
