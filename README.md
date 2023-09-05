@@ -100,9 +100,6 @@ See my [Certifications](https://drive.google.com/drive/folders/1j_wPwSTEVSUyw3qX
 Hipolito Paradela from *Raxar Company*
 hparadela@live.com.ar
 
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -174,5 +171,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2ODY4ODk3LDY0Njg2ODg5N119
+eyJoaXN0b3J5IjpbLTExOTgxNjk2NDEsNjQ2ODY4ODk3XX0=
 -->
