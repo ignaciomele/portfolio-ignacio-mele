@@ -105,9 +105,10 @@ Hipolito Paradela from *Raxar Company*
 
 
 
-# Getting Started with Create React App
+# Getting Started the App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
+### `npm start`
 
 ## Available Scripts
 
@@ -176,5 +177,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Mjg5MDU2LDY0Njg2ODg5N119
+eyJoaXN0b3J5IjpbNTMzNDMxNTc0LDE4NTI4OTA1Niw2NDY4Nj
+g4OTddfQ==
 -->
