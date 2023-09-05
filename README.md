@@ -1,6 +1,6 @@
 # Welcome to Ignacio Mele's Portfolio
 
-![Ignacio Mele  img](https://i.ibb.co/MSnvHwC/Ignacio-Mele.png)
+![Ignacio Mele  img](https://i.ibb.co/d6jqNTY/Ignacio-Mele.png =100x100)
 
 ## About me
 
@@ -171,5 +171,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTE1MzQ5NCw2NDY4Njg4OTddfQ==
+eyJoaXN0b3J5IjpbNjQwNjkyMjY3LDY0Njg2ODg5N119
 -->
