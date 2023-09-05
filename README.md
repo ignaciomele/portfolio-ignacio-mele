@@ -63,17 +63,17 @@ Landing pages creation, database management, analytics. Built with *VueJs*, *Nux
  - Fast learner
 
 ## Technical proficiencies
-|Category                 |Technologies      |
-|-------------------------|------------------|
-|Markup Languages         |`HTML`            |
-|Styling                  |`CSS, SCSS`       |
-|Programming Languages|`JavaScript, TypeScript`|
-|Frontend Frameworks|`React.Js, Vue.Js, Nuxt.Js`            |
-|Collaborative Development Platforms|`GitHub, GitLab`        |
-|Backend Frameworks|`Node.Js, Express.Js`|
-|Databases|`MySQL, MongoDB`            |
-|Testing Frameworks|`Jest.Js`            |
-|UI Design Frameworks|`Bootstrap, MUI, Vuetify`|
+|Category                 |Technologies              |
+|-------------------------|--------------------------|
+|Markup Languages         |`HTML`                    |
+|Styling                  |`CSS, SCSS`               |
+|Programming Languages    |`JavaScript, TypeScript`  |
+|Frontend Frameworks      |`React.Js, Vue.Js, Nuxt.Js`     |
+|Collaborative Development Platforms|`GitHub, GitLab`|
+|Backend Frameworks       |`Node.Js, Express.Js`     |
+|Databases                |`MySQL, MongoDB`          |
+|Testing Frameworks       |`Jest.Js`                 |
+|UI Design Frameworks     |`Bootstrap, MUI, Vuetify` |
  
 
 ## Languajes
@@ -173,5 +173,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEyOTE5ODEsNjQ2ODY4ODk3XX0=
+eyJoaXN0b3J5IjpbMTYyNjcyODk5NSw2NDY4Njg4OTddfQ==
 -->
