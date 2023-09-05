@@ -2,6 +2,9 @@
 
 ![Ignacio Mele  img](https://i.ibb.co/d6jqNTY/Ignacio-Mele.png)
 
+
+<img  src="https://i.ibb.co/d6jqNTY/Ignacio-Mele.png"  alt="Ignacio Mele img"  width="100"  height="100">
+
 ## About me
 
 Technology always was my passion and I'm fully committed to it. My **dedication** and **enthusiasm** for web development was born from my desire to create **innovative solutions** and handle complex challenges.
@@ -171,5 +174,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTgwMjQ5OCw2NDY4Njg4OTddfQ==
+eyJoaXN0b3J5IjpbOTkxNTMyMDAxLDY0Njg2ODg5N119
 -->
