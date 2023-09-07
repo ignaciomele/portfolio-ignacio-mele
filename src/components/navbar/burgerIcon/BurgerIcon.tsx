@@ -1,7 +1,12 @@
 import React from 'react'
 import './burgerIcon.css'
 
-export default function BurgerIcon(props) {
+interface BurgerIconProps {
+  handleClick: () => void;
+  burgerIconClicked: boolean;
+}
+
+const BurgerIcon: React.FC<BurgerIconProps> = (props) => {
   return (
     <div>
     <div 
@@ -15,3 +20,5 @@ export default function BurgerIcon(props) {
     </div>
   )
 }
+
+export default BurgerIcon

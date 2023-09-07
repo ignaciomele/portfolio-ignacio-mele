@@ -4,9 +4,8 @@ import projectSimplesCosas from '../../static/projectSimplesCosas.png'
 import portfolio from '../../static/portfolio.png'
 import projectCocktails from '../../static/projectCocktails.png'
 
-export default function Projects() {
+const Projects: React.FC = () => {
     return(
-        <>
             <div className="div-projects" id="projects">
                 <div>
                     <h1>PROJECTS</h1>
@@ -60,10 +59,9 @@ export default function Projects() {
                                 </div>
                             </figure>
                     </div>
-                    
                 </div>
             </div>
-        
-        </>
     )
 }
+
+export default Projects

@@ -1,18 +1,13 @@
-import React, {useState, useEffect} from "react";
+import React, { useState } from "react";
 import './home.css'
 import avatarIM from '../../static/avatarIM.png'
 
-export default function Home() {
-    const [showDiv, setShowDiv] = useState(false)
-    useEffect(() => {
-        setTimeout(() => {
-            setShowDiv(true)
-        }, 2300)
-    })
+const Home: React.FC = () => {
+    const [showDiv, setShowDiv] = useState<boolean>(false)
+
     return(
-        <>
             <div className="div-home" id="home">
-                <div className="div-home-title">
+                <div onAnimationEnd={() => setShowDiv(true)} className="div-home-title">
                     <h1>Hello! I'm Ignacio Mele</h1>
                 </div>
                 {showDiv ? 
@@ -31,9 +26,9 @@ export default function Home() {
                         
                     </div> 
                 </div> 
-                : ''
-                }                
+                : null}                
             </div>
-        </>
     )
 }
+
+export default Home

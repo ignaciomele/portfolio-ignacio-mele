@@ -4,7 +4,7 @@ import unlp from '../../static/iconCertifications/unlp.png'
 import certificationLinkedin from '../../static/iconCertifications/certificationLinkedin.jpg'
 import certificationUdemy from '../../static/iconCertifications/certificationUdemy.jpg'
 
-export default function Certifications() {
+const Certifications: React.FC = () => {
     return(
         <>
             <div className="div-certifications" id="certifications">
@@ -48,3 +48,5 @@ export default function Certifications() {
         </>
     )
 }
+
+export default Certifications

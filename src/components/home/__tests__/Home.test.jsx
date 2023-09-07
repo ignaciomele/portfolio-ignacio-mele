@@ -1,16 +1,20 @@
-import { render, screen, cleanup, waitFor } from "@testing-library/react";
+import { render, screen, cleanup, waitFor, fireEvent } from "@testing-library/react";
 import userEvent from '@testing-library/user-event'
-import Home from "../components/home/Home";
-import {BtnDownloadMock} from '../mocks/Home.mock'
+import Home from "../Home";
+import {BtnDownloadMock} from '../../../mocks/Home.mock'
 
 describe('Home', () => {
     const mockFn = jest.fn(BtnDownloadMock)
     const setup = () => render(<Home mockFn={mockFn}/>)
     afterEach(cleanup)
 
-    it('Should show buttons exists at the screen', () => {
+    it.only('Should show buttons exists at the screen', async () => {
         setup()
-        const buttonDownload = screen.getByRole('button', { name: /download resume/i })
+        fireEvent.animationEnd(screen.getByTestId("home-title-container"))
+        await waitFor(() => {
+            expect(screen.getByText("Hello! I'mIgnacio Mele")).toBeInTheDocument()
+        })
+        const buttonDownload = screen.getByTestId("download-resume-button")
         const buttonContact = screen.getByRole('button', { name: /contact/i })
 
         expect(buttonDownload).toBeInTheDocument()
