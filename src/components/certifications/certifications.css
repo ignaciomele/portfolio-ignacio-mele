@@ -20,24 +20,6 @@
     margin-top: 50px;
 }
 
-.div-certifications-card {
-    background-color: #367f73;
-    padding: 10px;
-    min-width: 20vh;
-    min-height: 30vh;
-    border-radius: 15px;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-    transition: all 300ms;
-}
-.div-certifications-card:hover {
-    opacity: 0.8;
-    transform: scale(1.10);
-    
-}
-.p-img-certifications{
-    margin-top: 35px;
-    padding-bottom: 0;
-}
 .course-img-1 {
     width: 150px;
     height: auto;
@@ -63,12 +45,7 @@
         flex-direction: column;
         width: 67%;
         margin: auto;
-
     }
-    .div-certifications-card {
-        margin-bottom: 34px;
-    }
-    
 }
 @media (max-width: 680px) {
     .course-img-1 {

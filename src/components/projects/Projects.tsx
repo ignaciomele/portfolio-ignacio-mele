@@ -1,67 +1,55 @@
 import React from "react";
-import './projects.css'
-import projectSimplesCosas from '../../static/projectSimplesCosas.png'
-import portfolio from '../../static/portfolio.png'
-import projectCocktails from '../../static/projectCocktails.png'
+import './projects.css';
+import projectSimplesCosas from '../../static/projectSimplesCosas.png';
+import portfolio from '../../static/portfolio.png';
+import projectCocktails from '../../static/projectCocktails.png';
+import ProjectCard from "../globalComponents/ProjectCard/ProjectCard";
+
 
 const Projects: React.FC = () => {
-    return(
-            <div className="div-projects" id="projects">
-                <div>
-                    <h1>PROJECTS</h1>
-                </div>
-                <div className="div-projects-cards" data-aos="fade-up">
-                    <div className="container-card" >
-                            <figure>
-                                <img src={projectSimplesCosas} alt=""/>
-                                <div className="text-card">
-                                    <h3>Simples Cosas Cabins</h3>
-                                    <p>One of my work as a freelancer, about cabin's reservation, where you can connect with the owner to check the availability and more information about the cabin.</p>
-                                    <a 
-                                        href="https://simples-cosas-cabins.netlify.app/" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                        >
-                                        <button className="button-project slide_right">Visit site</button>
-                                    </a>
-                                </div>
-                            </figure>
-                    </div>
-                    <div className="container-card">
-                            <figure>
-                                <img src={portfolio} alt=""/>
-                                <div className="text-card">
-                                    <h3>Portfolio</h3>
-                                    <p>My personal web site, where you can find information about my carreer and projects where I've been involved.</p>
-                                    <a 
-                                        href="https://ignacio-mele.netlify.app/"
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                        >
-                                        <button className="button-project slide_right">Visit site</button>
-                                    </a>
-                                </div>
-                            </figure>
-                    </div>
-                    <div className="container-card">
-                            <figure>
-                                <img src={projectCocktails} alt=""/>
-                                <div className="text-card">
-                                    <h3>Cocktail recipes</h3>
-                                    <p>Web page to search your favourite cocktails. Also, you can add your own recipes.</p>
-                                    <a 
-                                        href="https://cocktail-recipes-list.netlify.app/" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer"
-                                        >
-                                        <button className="button-project slide_right">Visit site</button>
-                                    </a>
-                                </div>
-                            </figure>
-                    </div>
-                </div>
-            </div>
-    )
-}
+    const projects = [
+        {
+          title: "Simples Cosas Cabins",
+          description:
+            "One of my work as a freelancer, about cabin's reservation, where you can connect with the owner to check the availability and more information about the cabin.",
+          imageUrl: projectSimplesCosas,
+          url: "https://simples-cosas-cabins.netlify.app/",
+        },
+        {
+          title: "Portfolio",
+          description:
+            "My personal web site, where you can find information about my carreer and projects where I've been involved.",
+          imageUrl: portfolio,
+          url: "https://ignacio-mele.netlify.app/",
+        },
+        {
+          title: "Cocktail recipes",
+          description:
+            "Web page to search your favourite cocktails. Also, you can add your own recipes.",
+          imageUrl: projectCocktails,
+          url: "https://cocktail-recipes-list.netlify.app/",
+        },
+      ];
+  return (
+    <div className="div-projects" id="projects">
+      <div data-testid="projects-title">
+        <h1>PROJECTS</h1>
+      </div>
+      <div 
+        className="div-projects-cards" 
+        data-aos="fade-up"
+        
+        >
+        {projects.map((project, index) => (
+          <ProjectCard 
+            index={index} 
+            key={index} 
+            project={project} 
+            />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default Projects
+export default Projects;

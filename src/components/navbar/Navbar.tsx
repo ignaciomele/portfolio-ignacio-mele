@@ -1,25 +1,27 @@
 import React, { useState, useEffect } from "react";
 import './navbar.css';
-import logoIM5 from '../../static/logoIM5.png';
 import BurgerIcon from "./burgerIcon/BurgerIcon";
+import Logo from "./logo/Logo";
+import MenuItem from "./menuItem/MenuItem";
 
-interface MenuItem {
+interface MenuItemData {
+    id: number;
     label: string;
     href: string;
-}
+  }
 
 const Navbar: React.FC = () => {
     const [burgerIconClicked, setBurgerIconClicked] = useState<boolean>(false)
     const [isMobile, setIsMobile] = useState<boolean>(false)
 
-    const menuItems: MenuItem[] = [
-        { label: "Home", href: "#home" },
-        { label: "About", href: "#about" },
-        { label: "Skills", href: "#skills" },
-        { label: "Certifications", href: "#certifications" },
-        { label: "Projects", href: "#projects" },
-        { label: "Contact", href: "#contact" },
-    ]
+    const menuItems: MenuItemData[] = [
+        { id: 1, label: "Home", href: "#home" },
+        { id: 2, label: "About", href: "#about" },
+        { id: 3, label: "Skills", href: "#skills" },
+        { id: 4, label: "Certifications", href: "#certifications" },
+        { id: 5, label: "Projects", href: "#projects" },
+        { id: 6, label: "Contact", href: "#contact" },
+      ];
 
     useEffect(() => {
         const checkIsMobile = () => {
@@ -40,23 +42,17 @@ const Navbar: React.FC = () => {
 
     return (
         <div className="div-navbar">
-            <div className="div-navbar-logo">
-                <a href="#home">
-                    <img className="navbar-logo" src={logoIM5} alt="" />
-                </a>
-            </div>
+            <Logo />
             <div className={`menu-items ${burgerIconClicked ? 'active' : ''}`}>
                 <div className="div-navbar-links">
-                    {menuItems.map((item, index) => (
-                        <a
-                            key={index}
-                            onClick={handleButtonClick}
-                            className="a-contact-navbar"
-                            href={item.href}
-                        >
-                            {item.label}
-                        </a>
-                    ))}
+                {menuItems.map((item) => (
+                    <MenuItem
+                        key={item.id}
+                        label={item.label}
+                        href={item.href}
+                        onClick={handleButtonClick} id={0}
+                        />
+                ))}
                 </div>
             </div>
             <div className="burgerIcon">

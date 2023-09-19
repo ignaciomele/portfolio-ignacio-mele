@@ -8,9 +8,15 @@ const ScrollUp: React.FC = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if(window.scrollY > 250) return setButtonScrollUp(true)
-            if(window.scrollY < 250) return setButtonScrollUp(false)
-        })
+            const handleScroll = () => {
+                setButtonScrollUp(window.scrollY > 250);
+              };
+            window.addEventListener("scroll", handleScroll);
+
+            return () => {
+            window.removeEventListener("scroll", handleScroll);
+    };
+          });
     }, [])
 
     const scrollUpButton = () => {
@@ -22,15 +28,18 @@ const ScrollUp: React.FC = () => {
 
     return (
         <>
-        <div>
             {buttonScrollUp && (
                 <div className="btn-up" >
-                    <a href="#home" onClick={scrollUpButton} data-testId='scrollUp'>
-                        <FontAwesomeIcon icon={faChevronUp} className="icon-up"/>
-                    </a>
+                    <button
+                        className="button-scroll-up" 
+                        aria-label="Scroll to top"
+                        onClick={scrollUpButton} 
+                        data-testid="scrollUp"
+                        >
+                            <FontAwesomeIcon icon={faChevronUp} className="icon-up"/>
+                    </button>
             </div>
-            )}
-        </div>            
+            )}         
         </>
     )
 }

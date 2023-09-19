@@ -1,9 +1,9 @@
 import React from "react";
 import './about.css'
 
-const About: React.FC = () => {
+const About = () => {
     return (
-        <div className="div-about" id="about">
+        <div className="div-about" id="about" data-testid="about">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h2>A little about me</h2>
                 <div className="div-about-content">
