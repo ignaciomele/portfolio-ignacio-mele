@@ -30,6 +30,7 @@ const Projects: React.FC = () => {
           url: "https://cocktail-recipes-list.netlify.app/",
         },
       ];
+      
   return (
     <div className="div-projects" id="projects">
       <div data-testid="projects-title">
@@ -41,11 +42,27 @@ const Projects: React.FC = () => {
         
         >
         {projects.map((project, index) => (
-          <ProjectCard 
-            index={index} 
-            key={index} 
-            project={project} 
+          <div key={index}>
+            <ProjectCard
+              project={project}
+              index={index}
+              url2={
+                index === 1 ? (
+                  <button
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/ignaciomele/portfolio-ignacio-mele",
+                        "_blank"
+                      )
+                    }
+                    className="button-project-extra"
+                  >
+                    GitHub
+                  </button>
+                ) : undefined
+              }
             />
+          </div>
         ))}
       </div>
     </div>

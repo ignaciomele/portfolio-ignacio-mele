@@ -61,6 +61,9 @@
     margin: auto;
 }
 
+.button-container {
+    display: flex;
+}
 
 .button-project {
     border: 2px solid #fff;
@@ -79,19 +82,24 @@
     transition: ease-out 0.5s;
     margin-bottom: 20px;
 }
-  .button-project a {
+.button-project a {
     text-decoration: none;
     color: #fff;
 }
-   .button-project span {
+.button-project span {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-weight: 600;
 }
-  .slide_right:hover {
+.slide_right:hover {
     box-shadow: inset 400px 0 0 0 #26233483;
+}
+
+.button-project-no-padding {
+    padding: 0;
+    margin-left: 10px;
 }
 
 @media (max-width: 890px) {
@@ -102,6 +110,10 @@
 
 @media (max-width: 680px) {
     .container-card {
-        width: 92%;
+        width: 100%;
     }
 }
+
+
+
+
