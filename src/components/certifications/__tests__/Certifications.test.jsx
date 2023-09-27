@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen, waitFor, fireEvent } from "@testing-library/react";
 import Certifications from "../Certifications";
-import {certificationsData} from "../Certifications"
+import { certificationsData } from "../Certifications"
 
 describe("Certifications Component", () => {
   it("render the whole component", async () => {
