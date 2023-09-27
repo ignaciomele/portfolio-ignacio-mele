@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
@@ -7,8 +8,7 @@ import Certifications from './components/certifications/Certifications';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 
-function App() {
-
+const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,7 +20,7 @@ function App() {
           <Certifications/>
           <Projects/>
           <Contact/>
-          </div>
+        </div>
       </header>
     </div>
   );
