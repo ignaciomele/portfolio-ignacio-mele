@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
           description:
             "One of my work as a freelancer, about cabin's reservation, where you can connect with the owner to check the availability and more information about the cabin.",
           imageUrl: projectSimplesCosas,
-          url: "https://simples-cosas-cabins.netlify.app/",
+          url: "https://cabanasimplescosas.com/",
         },
         {
           title: "Portfolio",
