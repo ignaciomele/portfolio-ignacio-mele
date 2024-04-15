@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './home.css'
-import avatarIM from '../../static/avatarIM.png'
+// import avatarIM from '../../static/avatarIM.png'
+import IMavatar3 from '../../static/IMavatar3.png'
 
 const Home: React.FC = () => {
     const [showDiv, setShowDiv] = useState<boolean>(false)
@@ -20,7 +21,7 @@ const Home: React.FC = () => {
                     data-aos-duration="1000"
                     >
                         <h4>Welcome to my portfolio</h4>
-                        <img className="home-avatar" src={avatarIM} alt="" />
+                        <img className="home-avatar" src={IMavatar3} alt="" />
                         <p>I'm a web developer with a music background.</p>
                         <p>In others words, I went to Music University and returned a Software Engineer.</p>
                         <div>
