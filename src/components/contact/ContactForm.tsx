@@ -1,13 +1,7 @@
 import React, { useState, useRef, ChangeEvent, FormEvent } from "react";
 import emailjs from '@emailjs/browser';
 import swal from "sweetalert";
-
-interface DataEmail {
-    name: string;
-    email: string;
-    subject: string;
-    message: string;
-}
+import { DataEmail } from "../../models/database-entities";
 
 const ContactForm: React.FC = () => {
     const [dataEmail, setDataEmail] = useState<DataEmail>({

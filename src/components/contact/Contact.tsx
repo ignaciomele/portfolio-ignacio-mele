@@ -1,12 +1,12 @@
-    import React from "react";
-    import './contact.css'
-    import ScrollUp from "../buttonScrollUp/ScrollUp";
-    import gmailIcon from '../../static/gmailIcon.webp'
-    import linkedinIcon from '../../static/linkedinIcon.png'
-    import whatsappIcon from '../../static/whatsappIcon.png'
-    import ContactForm from "./ContactForm";
+import React from "react";
+import './contact.css'
+import ScrollUp from "../buttonScrollUp/ScrollUp";
+import gmailIcon from '../../static/gmailIcon.webp'
+import linkedinIcon from '../../static/linkedinIcon.png'
+import whatsappIcon from '../../static/whatsappIcon.png'
+import ContactForm from "./ContactForm";
 
-    interface ContactProps {}
+interface ContactProps {}
 
 const Contact: React.FC<ContactProps> = () => {
     return (

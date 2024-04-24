@@ -1,11 +1,7 @@
 import React, {useState} from "react";
 import './skills.css'
 import iconSkills from '../../data/iconSkills.json'
-
-interface IconSkill {
-    img: string;
-    title: string;
-  }
+import { IconSkill } from "../../models/database-entities";
 
 const Skills: React.FC = () => {
     const [imagePerRow, setImagePerRow] = useState<number>(10)

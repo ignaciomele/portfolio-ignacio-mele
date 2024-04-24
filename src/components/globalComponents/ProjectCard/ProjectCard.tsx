@@ -1,16 +1,6 @@
 import React from "react";
 import "./projectCard.css"
-
-interface ProjectCardProps {
-  project: {
-    title: string;
-    description: string;
-    imageUrl: string;
-    url: string;
-  };
-  index: number;
-  url2?: React.ReactNode;
-}
+import { ProjectCardProps } from "../../../models/database-entities";
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, url2 }) => {
     const handleProjectButtonClick = () => {

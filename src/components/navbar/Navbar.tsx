@@ -3,18 +3,13 @@ import './navbar.css';
 import BurgerIcon from "./burgerIcon/BurgerIcon";
 import Logo from "./logo/Logo";
 import MenuItem from "./menuItem/MenuItem";
-
-interface MenuItemData {
-    id: number;
-    label: string;
-    href: string;
-  }
+import { NavbarMenuItemData } from "../../models/database-entities";
 
 const Navbar: React.FC = () => {
     const [burgerIconClicked, setBurgerIconClicked] = useState<boolean>(false)
     const [isMobile, setIsMobile] = useState<boolean>(false)
 
-    const menuItems: MenuItemData[] = [
+    const menuItems: NavbarMenuItemData[] = [
         { id: 1, label: "Home", href: "#home" },
         { id: 2, label: "About", href: "#about" },
         { id: 3, label: "Skills", href: "#skills" },

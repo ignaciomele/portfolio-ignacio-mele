@@ -4,21 +4,22 @@ import Projects from "../Projects"
 
 
 describe("Projects Component", () => {
+  const setup = () => render(<Projects />)
     it("renders the whole component", () => {
-      render(<Projects />)
+      setup()
       
       expect(screen.getByTestId("projects-title")).toBeInTheDocument()
     })
 
     it("Render correctly length projects", () => {
-        render(<Projects />)
+        setup()
 
         const projectCards = screen.getAllByTestId(/^project-card-\d+$/)
         expect(projectCards).toHaveLength(3) 
     })
 
     it("Renders individual project cards with correct content", () => {
-        render(<Projects />);
+        setup();
         
         const projectTitles = screen.getAllByText(/Simples Cosas Cabins|Portfolio|Cocktail recipes/);
         const projectDescriptions = screen.getAllByText(/One of my work as a freelancer|My personal web site|Web page to search your favourite cocktails/);

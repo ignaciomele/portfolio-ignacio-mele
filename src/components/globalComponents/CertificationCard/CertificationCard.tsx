@@ -1,12 +1,6 @@
 import React from "react";
 import "./certificationCard.css"
-
-interface CertificationCardProps {
-    image: string;
-    institution: string;
-    date: string;
-    imageClassName: string;
-  }
+import { CertificationCardProps } from "../../../models/database-entities";
   
   const CertificationCard: React.FC<CertificationCardProps> = ({ image, institution, date, imageClassName }) => (
     <div className="div-certifications-card">
