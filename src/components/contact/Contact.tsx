@@ -5,8 +5,11 @@ import gmailIcon from '../../static/gmailIcon.webp'
 import linkedinIcon from '../../static/linkedinIcon.png'
 import whatsappIcon from '../../static/whatsappIcon.png'
 import ContactForm from "./ContactForm";
+import { ContactProps } from "../../models/database-entities";
 
-interface ContactProps {}
+
+const TitleText = "Contact Me"
+
 
 const Contact: React.FC<ContactProps> = () => {
     return (
@@ -17,7 +20,7 @@ const Contact: React.FC<ContactProps> = () => {
                     data-aos-duration="1000" 
                     data-testid="contact-title"
                     >
-                        Contact Me
+                        {TitleText}
                 </h1>
             </div>
             <div 

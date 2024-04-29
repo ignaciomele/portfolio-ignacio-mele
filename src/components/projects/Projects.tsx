@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
   return (
     <div className="div-projects" id="projects">
       <div data-testid="projects-title">
-        <h1>PROJECTS</h1>
+        <h1>Projects</h1>
       </div>
       <div 
         className="div-projects-cards" 

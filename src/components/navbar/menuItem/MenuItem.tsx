@@ -1,11 +1,5 @@
 import React from 'react';
-
-interface MenuItemProps {
-  label: string;
-  href: string;
-  id: number;
-  onClick: () => void;
-}
+import { MenuItemProps } from '../../../models/database-entities';
 
 const MenuItem: React.FC<MenuItemProps> = ({ label, href, onClick }) => (
   <a onClick={onClick} href={href}>

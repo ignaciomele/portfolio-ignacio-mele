@@ -4,6 +4,7 @@ import unlp from '../../static/iconCertifications/unlp.png'
 import certificationLinkedin from '../../static/iconCertifications/certificationLinkedin.jpg'
 import certificationUdemy from '../../static/iconCertifications/certificationUdemy.jpg'
 import CertificationCard from "../globalComponents/CertificationCard/CertificationCard";
+import { CertificationProps } from "../../models/database-entities";
 
 const certificationsData = [
     {
@@ -29,7 +30,9 @@ const certificationsData = [
     },
 ];
 
-const Certifications: React.FC = () => {
+const buttonText = "View all"
+
+const Certifications: React.FC<CertificationProps> = () => {
 
     const handleViewAllBtn = () => {
         window.open('https://drive.google.com/drive/folders/1j_wPwSTEVSUyw3qXw66DLos3hZOxBYDm', '_blank');
@@ -65,7 +68,7 @@ const Certifications: React.FC = () => {
               className="button slide_right"
               data-testid="certifications-viewAll-button"
             >
-              View all
+              {buttonText}
             </button>
           </div>
         </div>

@@ -1,10 +1,7 @@
 import React from 'react'
 import './burgerIcon.css'
+import { BurgerIconProps } from '../../../models/database-entities'
 
-interface BurgerIconProps {
-  handleClick: () => void;
-  burgerIconClicked: boolean;
-}
 
 const BurgerIcon: React.FC<BurgerIconProps> = (props) => {
   return (

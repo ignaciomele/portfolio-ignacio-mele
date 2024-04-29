@@ -22,11 +22,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, url2 }) => {
                 Visit site
               </button>
               {url2 && (
-                <button
-                  className={`button-project slide_right ${url2 ? 'button-project-no-padding' : null}`}
-                >
+                <div className={`button-project slide_right ${url2 ? 'button-project-no-padding' : null}`}>
                   {url2}
-                </button>
+                </div>
               )}
             </div>
           </div>

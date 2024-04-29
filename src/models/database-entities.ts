@@ -33,3 +33,25 @@ export interface IconSkill {
     img: string;
     title: string;
 }
+
+export interface BurgerIconProps {
+    handleClick: () => void;
+    burgerIconClicked: boolean;
+}
+
+export interface MenuItemProps {
+    label: string;
+    href: string;
+    id: number;
+    onClick: () => void;
+  }
+
+export interface AboutProps {}
+
+export interface CertificationProps {}
+
+export interface ContactProps {}
+
+export interface HomeProps {}
+
+export interface  NavbarProps {}
